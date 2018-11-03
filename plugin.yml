@@ -1,0 +1,12 @@
+name: McbeRank
+author: alvin0319
+main: alvin0319\McbeRank
+version: 1.0.0
+api:
+- 3.3.0
+- 4.0.0
+- 3.3.2
+- 3.3.1
+- 3.3.3
+website: https://pmmp.me
+description: 자신의 서버 순위를 pmmp.me 에서 얻어와 표시해줍니다
