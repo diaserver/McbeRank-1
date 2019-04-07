@@ -1,5 +1,5 @@
 <?php
-namespace dokidia;
+namespace DokiDia;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Internet;
