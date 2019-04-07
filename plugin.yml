@@ -1,6 +1,6 @@
 name: McbeRank
 author: DokiDia
-main: DokiDia\McbeRank
+main: dokidia\McbeRank
 version: 1.0.1
 api:
 - 3.0.0
