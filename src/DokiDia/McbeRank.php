@@ -29,6 +29,6 @@ class McbeRank extends PluginBase implements Listener{
     }
     public function onJoin(PlayerJoinEvent $event){
         $url = json_decode($this->getServerRank(), true);
-        $event->getPlayer()->sendMessage('§l§f< §b서버순위 §f> §l§e현재 우리 서버의 순위는§o§a ' . $url['result'] ['rank'] . ' 위§r§l§e 입니다! §r(MCBE RANK 기준)');
+        $event->getPlayer()->sendMessage('§f§l< §b서버순위 §f> §l§e현재 우리 서버의 순위는§o§a ' . $url['result'] ['rank'] . ' 위§r§l§e 입니다! §r(MCBE RANK 기준)');
     }
 }
