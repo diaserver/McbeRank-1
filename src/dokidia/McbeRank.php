@@ -17,12 +17,7 @@ class McbeRank extends PluginBase implements Listener{
         ]);
         $this->db = $this->config->getAll();
         $url = json_decode($this->getServerRank(), true);
-        
-        if(!($url['success'] ?? false)){
-            $this->getLogger()->critical('http://be.diamc.kr 에 서버가 등록되어있지 않습니다.');
-            $this->getLogger()->notice('http://be.diamc.kr/new 에서 서버를 등록해주세요');
-            $this->getServer()->getPluginManager()->disablePlugin($this);
-        }
+
     }
     public function getServerRank() : string{
         return Internet::getURL('http://be.diamc.kr:3500/api/servers' . $this->db['ip'] . ':' . $this->db['port']);
