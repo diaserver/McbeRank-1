@@ -1,11 +1,13 @@
 name: McbeRank
-author: DokiDia
+author: dokidia
 main: dokidia\McbeRank
-version: 1.0.1
+version: 2.0.0
 api:
 - 3.0.0
 - 4.0.0
-- 3.7.0
-- 3.7.1
-website: https://mcbe.cf
-description: 자신의 서버 순위를 mcbe.cf 에서 얻어와 표시해줍니다
+website: https://be.diamc.kr/
+description: 서버의 순위를 MCBE Rank API를 통해 불러옵니다
+
+commands:
+  서버순위:
+    description: 서버 순위를 불러옵니다
